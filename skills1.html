@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Skills</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(130deg, #4facfe, #ee82ee);
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #4facfe;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a {
+      color: white;
+      font-size: 1.2rem;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Section */
+    .header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: linear-gradient(130deg, #4facfe, #ee82ee);
+      color: white;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    /* Skills Section */
+    .skills {
+      padding: 2rem 1rem;
+    }
+
+    .skills h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: purple;
+      margin-bottom: 1rem;
+    }
+
+    .skills-list {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .skill-item {
+      width: 180px;
+      padding: 1rem;
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .skill-item h3 {
+      font-size: 1.2rem;
+      color: purple;
+      margin-bottom: 0.5rem;
+    }
+
+    .skill-item p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    /* Photo Section */
+    .photos {
+      padding: 2rem 1rem;
+    }
+
+    .photos h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: purple;
+      margin-bottom: 1rem;
+    }
+
+    .photo-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .photo-item {
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .photo-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .photo-item img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #6a11cb;
+      color: white;
+      border-radius: 0 0 15px 15px;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: #2575fc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="index.html">Back to Main Page</a>
+  </div>
+
+  <div class="container">
+    <!-- Header Section -->
+    <div class="header">
+      <h1>My Skills</h1>
+      <p>Explore my expertise and see what I bring to the table.</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill-item">
+          <h3>PUNCTUAL</h3>
+          <p>I would always wake-up 2 hours earlier just to get ready before the time.</p>
+        </div>
+        <div class="skill-item">
+          <h3>TEAMWORK</h3>
+          <p>I'll give 100% efforts on doing teamwork's activities.</p>
+        </div>
+        <div class="skill-item">
+          <h3>COMMUNICATION</h3>
+          <p>I'm able to show expression and communicate with team members about my ideas.</p>
+        </div>
+        <div class="skill-item">
+          <h3>TOLERANCY</h3>
+          <p>I can hear and understand other's idea or opinions.</p>
+        </div>
+        <div class="skill-item">
+          <h3>EMPATHY</h3>
+          <p>I always care about other's feelings before talks about something that might be sensitive to them.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photos Section -->
+    <div class="photos">
+      <h2>Gallery</h2>
+      <div class="photo-gallery">
+        <div class="photo-item">
+          <img src="photo_2024-11-24_23-54-07.jpg" alt="Skill Photo 1">
+        </div>
+        <div class="photo-item">
+          <img src="photo_2024-11-24_23-54-12.jpg" alt="Skill Photo 2">
+        </div>
+        <div class="photo-item">
+          <img src="photo_2024-11-24_23-54-10.jpg" alt="Skill Photo 3">
+        </div>
+        <div class="photo-item">
+          <img src="photo_2024-11-24_23-54-16.jpg" alt="Skill Photo 4">
+        </div>
+        <div class="photo-item">
+          <img src="photo_2024-11-24_23-54-14.jpg" alt="Skill Photo 5">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Ayu. All rights reserved. <br> Connect with me on <a href="#">GMAIL</a>.</p>
+  </footer>
+
+<style>
+body { 
+      background-image: url("https://img.freepik.com/free-photo/minimal-neutral-earth-tone-abstract-background_53876-102523.jpg")
+}
+</style>
+
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(135deg, #F8B195, #F67280);
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #F67280;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1rem;
+    }
+
+    .navbar a {
+      color: white;
+      font-size: 1.2rem;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Section */
+    .header {
+      background: linear-gradient(130deg, #4facfe, #ee82ee);
+      text-align: center;
+      margin-bottom: 2rem;
+      color: white;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      color: white;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      color: #555;
+      font-weight: 300;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: space-between;
+    }
+
+    .contact-item {
+      flex: 1 1 calc(33.33% - 1rem);
+      background: #f9f9f9;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-item img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-item h3 {
+      font-size: 1.5rem;
+      color: #F67280;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-item p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    /* Contact Form */
+    .contact-form {
+      margin-top: 2rem;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .form-group button {
+      background: #F67280;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .form-group button:hover {
+      background: #F8B195;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #F67280;
+      color: white;
+      border-radius: 15px;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: #F8B195;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="index.html">Back to Main Page</a>
+  </div>
+
+  <div class="container">
+    <!-- Header Section -->
+    <div class="header">
+      <h1>Contact</h1>
+      <p>Let’s get in touch! Reach out through the details below or send a message.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+      <div class="contact-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nHXAvXyUgz_HVHNUIoIZA2r44m74JkJqRg&s" alt="Phone Icon">
+        <h3>Phone</h3>
+        <p>017 - 565 1737</p>
+      </div>
+
+      <div class="contact-item">
+        <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="Email Icon">
+        <h3>Email</h3>
+        <p>ayunimaisarah916@gmail.com</p>
+      </div>
+
+      <div class="contact-item">
+        <img src="https://sf-static.tiktokcdn.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png" alt="Tiktok Icon">
+        <h3>Tiktok</h3>
+        <p>_.yuyuuu</p>
+      </div>
+
+      <div class="contact-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgfKNwFj7O66Qn-tIw87Yzo1A3DNh9rGq5g&s" alt="Instagram Icon">
+        <h3>Instagram</h3>
+        <p>aeyuuu_</p>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Send a Message</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your Email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Ayu. All rights reserved. <br> Connect with me on <a href="#">GMAIL</a>.</p>
+  </footer>
+
+<style>
+body { 
+      background-image: url("https://img.freepik.com/free-photo/minimal-neutral-earth-tone-abstract-background_53876-102523.jpg");
+}
+</style>
+
+</body>
+</html>
+
